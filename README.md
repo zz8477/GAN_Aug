@@ -5,7 +5,7 @@ GAN-based Model-domain Failing Test Augmentation for Fault Localization.
 
 ## Dataset
 
-The datasets we used are from [Defects4J](Defects4J,http://defects4j.org),[ManyBugs](http://repairbenchmarks.cs.umass.edu/ManyBugs/),[SIR](http://sir.unl.edu/portal/index.php).
+The datasets we used are from [Defects4J](http://defects4j.org),[ManyBugs](http://repairbenchmarks.cs.umass.edu/ManyBugs/),[SIR](http://sir.unl.edu/portal/index.php).
 
 This is a demo for nanoxml_v2, fault 1
 source code:StdXMLParser.java
@@ -49,5 +49,8 @@ You can get the evaluated results using the following command.
 cd nanoxml_v2_f1
 cd SFL_compute_original
 ./run_original.sh
+cd ..
+cd SFL_compute_augmentation
+./run_aug.sh
 ```
 The file result.txt is the Rank and Exam of the bug statement.
