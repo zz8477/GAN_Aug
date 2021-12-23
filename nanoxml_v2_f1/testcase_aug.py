@@ -257,7 +257,7 @@ def main():
     
     for item in fake_testcase_numpy:
         for element_num in range(len(item)):
-            if item[element_num] <= 0.5 and minimum_suspicious_set[element_num] == 0:
+            if item[element_num] <= 0.5:
                 f3.write('0')
             else:
     #            f3.write('1')
